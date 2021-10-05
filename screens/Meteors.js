@@ -96,7 +96,7 @@ export default class MeteorScreen extends Component {
             }
             );
             return (
-                <View style={styles.containor}>
+                <View style={styles.container}>
                     <FlatList
                         keyExtractor={this.keyExtractor}
                         data={meteors}
